@@ -1,0 +1,80 @@
+| **Field**         | **Details**                          |
+| ----------------- | ------------------------------------ |
+| **Date**          | 15 March 2026                        |
+| **Team ID**       | XXXXXX *(Replace with your Team ID)* |
+| **Project Name**  | AI Debt Settlement System            |
+| **Maximum Marks** | 2 Marks                              |
+
+
+
+| **Symbol**       | **Component**                 | **Description**                                                                                          |
+| ---------------- | ----------------------------- | -------------------------------------------------------------------------------------------------------- |
+| External Entity  | User                          | Registers, logs in, manages loans, and requests AI settlement reports.                                   |
+| Process 1        | User Authentication           | Validates login credentials and issues JWT tokens.                                                       |
+| Process 2        | Loan Management               | Stores, updates, retrieves, and deletes loan information.                                                |
+| Process 3        | AI Risk & Settlement Analysis | Uses Machine Learning and Google Gemini AI to analyze loan risk and generate settlement recommendations. |
+| Process 4        | Settlement Report Generation  | Creates AI-based reports and allows users to download them as PDFs.                                      |
+| Data Store       | User Database                 | Stores user account information securely.                                                                |
+| Data Store       | Loan Database                 | Stores all loan-related records and financial information.                                               |
+| External Service | Google Gemini AI API          | Generates intelligent settlement recommendations and financial insights.                                 |
+
+
+
+
+                          +----------------------+
+                          |        User          |
+                          | (Borrower/Customer)  |
+                          +----------+-----------+
+                                     |
+                    Registration / Login / Loan Details
+                                     |
+                                     v
+                      +-------------------------------+
+                      | 1. User Authentication         |
+                      +-------------------------------+
+                                     |
+                            User Credentials
+                                     |
+                                     v
+                          +----------------------+
+                          |     User Database    |
+                          +----------------------+
+                                     |
+                                     |
+                                     v
+                    +-------------------------------+
+                    | 2. Loan Management Process    |
+                    +-------------------------------+
+                                     |
+                        Loan Details / Updates
+                                     |
+                                     v
+                          +----------------------+
+                          |    Loan Database     |
+                          +----------------------+
+                                     |
+                                     |
+                                     v
+                 +-----------------------------------------+
+                 | 3. AI Risk & Settlement Analysis         |
+                 +-----------------------------------------+
+                     |                          |
+          Loan Data  |                          | AI Request
+                     |                          v
+                     |              +-----------------------+
+                     |              | Google Gemini AI API  |
+                     |              +-----------------------+
+                     |                          |
+                     +------------AI Response---+
+                                     |
+                                     v
+                    +-------------------------------+
+                    | 4. Settlement Report Process  |
+                    +-------------------------------+
+                                     |
+                         PDF Report / Dashboard Data
+                                     |
+                                     v
+                          +----------------------+
+                          |        User          |
+                          +----------------------+
