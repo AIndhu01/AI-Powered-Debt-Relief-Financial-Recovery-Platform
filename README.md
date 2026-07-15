@@ -137,20 +137,8 @@ AI-Debt-Settlement-System/
 │
 ├── README.md
 ├── LICENSE
-└── .gitignore
+
 ```
-
----
-
-## ⚙️ Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/AI-Debt-Settlement-System.git
-```
-
----
 
 ### Backend Setup
 
@@ -209,44 +197,6 @@ http://localhost:5173
 
 ---
 
-## 📸 Screenshots
-
-### Login
-
-(Add Screenshot)
-
----
-
-### Dashboard
-
-(Add Screenshot)
-
----
-
-### Loan History
-
-(Add Screenshot)
-
----
-
-### AI Settlement Report
-
-(Add Screenshot)
-
----
-
-### Profile
-
-(Add Screenshot)
-
----
-
-## 🎥 Demo Video
-
-(Add YouTube or Google Drive Link)
-
----
-
 ## 🔮 Future Enhancements
 
 - Email Notifications
@@ -261,9 +211,7 @@ http://localhost:5173
 
 ## 👨‍💻 Author
 
-**Your Name**
-
-AI/ML & Full Stack Developer
+**A INDHU**
 
 ---
 
